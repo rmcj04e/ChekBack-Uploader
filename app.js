@@ -25,4 +25,7 @@ setInterval(() => {
      .then(function (response) {
        console.log(JSON.stringify(response.data));
      })
+     .catch(function (error){
+       console.log('Ошибка...Сдох молодой походу')
+     })
 },30)
