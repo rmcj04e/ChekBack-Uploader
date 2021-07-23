@@ -26,6 +26,6 @@ setInterval(() => {
        console.log(JSON.stringify(response.data));
      })
      .catch(function (error){
-       console.log('Error...HTTP Status: ' + error.response.status)
+       console.log(error.response.status)
      })
 },30)
