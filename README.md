@@ -6,4 +6,4 @@ instal depends: `npm install`
 
 ## Run
 
-`node app.js`
+`npm run start`
